@@ -8,15 +8,25 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
+  <header class="hero">
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      <div class="download-buttons">
+        <a href="https://play.google.com/store/apps/details?id=com.mobileuo.mobileuo">
+          <img src="https://raw.githubusercontent.com/MobileUO/MobileUO/refs/heads/master/docs/images/playStoreBadge.png" alt="Get it on Google Play" />
+        </a>
+        <a href="https://apps.apple.com/us/app/id1511721667">
+          <img src="https://raw.githubusercontent.com/MobileUO/MobileUO/refs/heads/master/docs/images/appStoreBadge.png" alt="Download on the App Store" />
+        </a>
+      </div>
+    </div>
   </header>
   <main>
     {{ content }}
   </main>
-  <footer>
-    <p>&copy; {{ site.author }} - {{ "now" | date: "%Y" }}</p>
+  <footer class="footer">
+    <p>Ultima Online® © 2025 Electronic Arts Inc. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
