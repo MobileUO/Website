@@ -3,7 +3,7 @@ layout: default
 title: MobileUO - Ultima Online on your phone and tablet
 ---
 
-<div class="container px-4">
+<div class="container px-4" markdown="1">
 
 # Privacy Policy
 
