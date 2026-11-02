@@ -3,6 +3,8 @@ layout: default
 title: MobileUO - Ultima Online on your phone and tablet
 ---
 
+<div class="container px-4">
+
 # Privacy Policy
 
 Privacy Policy for Mandaria Software applications, including but not limited to MobileUO
@@ -64,3 +66,5 @@ consent to abide and be bound by the modified Privacy Policy.
 ## Contact Us
 
 If you have any questions about this Privacy Policy, please contact us at support@mandaria.net.
+
+</div>
